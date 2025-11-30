@@ -13,5 +13,5 @@ _start:
   syscall
 
   mov rax, 60     ; Syscall Number | 60 = exit
-  xor rdi, rdi    ; reset rdi register
+  xor rdi, rdi    ; Exit code | 0
   syscall 
